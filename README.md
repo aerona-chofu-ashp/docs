@@ -3,7 +3,8 @@ Documentation for Grant Aerona3 and Chofu air-source heat pumps
 
 This repository contains manuals and information for the R32-based air
 source heat pumps manufactured by
-[Chofu Seisakusho Co. Ltd.](https://www.chofuglobal.com/) in Japan.
+[Chofu Seisakusho Co. Ltd.](https://www.chofuglobal.com/) in
+[Japan](https://www.chofu.co.jp/).
 In the UK, Ireland and France they are rebranded by Grant as the Aerona3
 heat pumps, while in other markets distributors sell them with the Chofu
 brand.
