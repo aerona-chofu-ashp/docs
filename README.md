@@ -23,6 +23,24 @@ markets.  However there are a number of distinct chassis:
 | 17/16kW| HPID17R32|AEYC-1643XU-CH|
  
 
+Key documentation
+-----------------
+
+* [Grant Aerona3 Installation Manual](Grant/UK/grant-aerona-r32-installer-uk-doc-0136-rev-2-0-september-2020.pdf)
+* [Chofu R32 Operating/Installation Manual](Chofu/R32/New-Zealand/Chofu-Operating-Installation-Manual-R32.pdf)
+  (New Zealand)
+* [Chofu AEYC Service Manual](Chofu/R32/SERVICE%20MANUAL_AEYC-xx42%2C-xx43XU-GR%20%28RA-98%285%29%29.pdf)
+
+
+
+Links to other resources
+------------------------
+
+* [Modbus reverse engineering](https://github.com/aerona-chofu-ashp/modbus/)
+* [Reverse Engineering Grant ASHP Remote Protocol](https://hackaday.io/project/170602-reverse-engineering-grant-ashp-remote-protocol)
+  - the protocol between the ASHP and the indoor control panel
+
+
 Disclaimer
 ----------
 We are not responsible for anything you choose to do with the
