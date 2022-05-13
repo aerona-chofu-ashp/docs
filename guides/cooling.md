@@ -40,9 +40,9 @@ set to 1:
 ![Parameters 5124 / 5126](images/cooling-params-5124.png)
 
 This disables the cooling ('sun/snowflake') button on the room controller. 
-You need to set parameter 5124 to zero, and then the cooling button will
-enable, (11) on the room controller diagram above (page 28 of the Chofu R32
-manual):
+You need to set parameter 5124 to zero using Installer mode, and then the
+cooling button will enable, (11) on the room controller diagram above (page
+28 of the Chofu R32 manual):
 
 ![Room controller](images/room-controller-11.png)
 
@@ -91,6 +91,14 @@ Once the water loop is at ambient temperature, the compressor will kick in
 and engage refrigeration, which will gradually reduce the output temperature
 to the desired cooling temperature.
 
+As mentioned for (11), the cooling button operates in two modes:
+
+ - Timer inactive mode, where it cycles between 'off', 'heat' and 'cool'. 
+   This is the default.
+ - Timer active mode, where it cycles between 'heat' and 'cool', turning on
+   the ASHP according to the room controller's program (much like a
+   traditional central heating timer).  This is only if the room
+   controller's timer mode has been activated.
 
 ## 5. Emitters
 
