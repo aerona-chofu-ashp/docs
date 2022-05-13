@@ -4,20 +4,19 @@ Cooling on the Grant Aerona3 / Chofu R32 air-source heat pumps
 **Disclaimer: This section is only for people with some understanding of
 heating systems and competence in electrical wiring.  Everything here is an
 experimental work in progress.  It may be wrong and may damage your heat
-pump.  Proceed at your own risk!  Corrections or additions welcome
- - please open a Github Issue to comment.**
+pump.  Proceed at your own risk!  Corrections or additions welcome: please
+open a Github Issue to comment.**
 
 The Grant Aerona3 / Chofu R32 heat pumps support cooling mode, but this
 information has been deleted from the Grant documentation.  The following
 describes how to activate cooling mode.  At present this has been tested to
 work but not fully put into service.
 
-1. Room controller
-------------------
+## 1. Room controller
 
 Cooling mode can be activated via the room controller:
 
-![Room controller](image/room-controller-buttons.png)
+![Room controller](images/room-controller-buttons.png)
 
 Grant's installation instructions say you don't need to touch this in
 general use, and so installers may mount this somewhere inconvenient.
@@ -32,8 +31,7 @@ Note that Grant's manual removes a lot of text about what the room
 controller does and how it is set up - you should read the Chofu manual for
 more details about what it actually does.
 
-2. Enable cooling mode
-----------------------
+## 2. Enable cooling mode
 
 As shipped, the ASHP is set to require a dry contact (between terminals 24
 and 25) on the control PCB to activate cooling mode, ie parameter 5124 is
@@ -47,8 +45,8 @@ the room controller diagram above (page 28 of the Chofu R32 manual):
 
 ![Room controller](images/room-controller-11.png)
 
-3. Flow switch
---------------
+
+## 3. Flow switch
 
 If you now press the 'snowflake' button, cooling mode will engage but it
 will shortly then fail with error L6, flow switch error:
@@ -75,8 +73,7 @@ tank then the loop should operate even if no zones are open.
 ![Flow switch picture](https://www.caleffi.com/sites/default/files/styles/product_photo/public/file/626_0.jpg)
 
 
-4. Cooling mode
----------------
+## 4. Cooling mode
 
 Once the system is happy you can now enable cooling mode with the snowflake
 button, which will chill the water output (down to the default of 7°C).
@@ -91,8 +88,8 @@ Once the water loop is at ambient temperature, the compressor will kick in
 and engage refrigeration, which will gradually reduce the output temperature
 to the desired cooling temperature.
 
-5. Emitters
------------
+
+## 5. Emitters
 
 Your system needs to be designed for cooling.  There are two issues you need
 to confront: cold air sinks, and cold emitters (and pipes) attract condensation.
@@ -106,8 +103,8 @@ are good.
 Better emitters are water-based fan coils and in some cases underfloor
 heating.
 
-6. Pumps and controls
----------------------
+
+## 6. Pumps and controls
 
 If wired as Grant suggest as a typical S-plan with external thermostat, the
 controls will likely be wrong.  For example, a thermostat may 'call for
