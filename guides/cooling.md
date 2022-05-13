@@ -12,18 +12,19 @@ information has been deleted from the Grant documentation.  The following
 describes how to activate cooling mode.  At present this has been tested to
 work but not fully put into service.
 
-## 1. Room controller
+## 1. Make the room controller accessible
 
 Cooling mode can be accessed via the room controller:
 
-![Room controller](images/room-controller-picture.png)
+![Move the room controller](images/room-controller-picture.png)
 
 Grant's installation instructions say you don't need to touch this in
-general use, and so installers may mount this somewhere inconvenient.
-
+general use, and so installers may mount this somewhere inconvenient.  
 This controller is actually a full 7 day programmer and controller, for both
 heating and cooling, and so you may first wish to move it somewhere more
-accessible.  Consult section 3.7 in the
+accessible.
+
+Consult section 3.7 in the
 [Chofu installation instructions](../Chofu/R32/New-Zealand/Chofu-Operating-Installation-Manual-R32.pdf)
 for details on how this should be wired.
 
@@ -31,7 +32,7 @@ Note that Grant's manual removes a lot of text about what the room
 controller does and how it is set up - you should read the Chofu manual for
 more details about what it actually does.
 
-## 2. Enable cooling mode
+## 2. Configure the ASHP for cooling mode
 
 As shipped, the ASHP is set to require a dry contact (between terminals 24
 and 25) on the control PCB to activate cooling mode, ie parameter 5124 is
@@ -47,9 +48,9 @@ cooling button will enable, (11) on the room controller diagram above (page
 ![Room controller](images/room-controller-11.png)
 
 
-## 3. Flow switch
+## 3. Install a flow switch
 
-If you now press the 'snowflake' button, cooling
+If you now press the 'sun/snowflake' button, cooling
 mode will engage but it will shortly then fail with error L6, flow switch
 error:
 
@@ -76,7 +77,7 @@ other blockage).
 ![Flow switch picture](https://www.caleffi.com/sites/default/files/styles/product_photo/public/file/626_0.jpg)
 
 
-## 4. Cooling mode
+## 4. Activating cooling mode
 
 Once the system is happy you can now enable cooling mode with the snowflake
 button, which will chill the water output (down to the default of 7°C).
@@ -100,6 +101,11 @@ As mentioned for (11), the cooling button operates in two modes:
    traditional central heating timer).  This is only if the room
    controller's timer mode has been activated.
 
+Additionally it is possible to enable cooling mode via the dry contact on
+terminals 24-25, which disables the button on the room controller.  If you
+have external controls, eg a smart thermostat that understands cooling, you
+may wish to operate it from that contact rather than the room controller.
+
 ## 5. Emitters
 
 Your system needs to be designed for cooling.  There are two issues you need
@@ -112,7 +118,8 @@ pipes in walls/ceilings/etc) will sweat due to the condensation.  Neither
 are good.
 
 Better emitters are water-based fan coils and in some cases underfloor
-heating.
+heating.  It is possible to adjust the output temperature in settings, which
+may permit avoidance of condensation problems.
 
 
 ## 6. Pumps and controls
