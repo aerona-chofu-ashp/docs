@@ -32,6 +32,11 @@ Key documentation
 * [Chofu AEYC Service Manual](Chofu/R32/SERVICE%20MANUAL_AEYC-xx42%2C-xx43XU-GR%20%28RA-98%285%29%29.pdf)
 
 
+Local guides (experimental, at your own risk)
+---------------------------------------------
+
+* [Enabling cooling mode](guides/cooling.md)
+
 
 Links to other resources
 ------------------------
