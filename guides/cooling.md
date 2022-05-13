@@ -14,7 +14,7 @@ work but not fully put into service.
 
 ## 1. Room controller
 
-Cooling mode can be activated via the room controller:
+Cooling mode can be accessed via the room controller:
 
 ![Room controller](images/room-controller-picture.png)
 
@@ -39,17 +39,19 @@ set to 1:
 
 ![Parameters 5124 / 5126](images/cooling-params-5124.png)
 
-This disables the cooling button on the room controller.  You need to set
-parameter 5124 to zero, and then the cooling button will enable,  (11) on
-the room controller diagram above (page 28 of the Chofu R32 manual):
+This disables the cooling ('sun/snowflake') button on the room controller. 
+You need to set parameter 5124 to zero, and then the cooling button will
+enable, (11) on the room controller diagram above (page 28 of the Chofu R32
+manual):
 
 ![Room controller](images/room-controller-11.png)
 
 
 ## 3. Flow switch
 
-If you now press the 'snowflake' button, cooling mode will engage but it
-will shortly then fail with error L6, flow switch error:
+If you now press the 'snowflake' button, cooling
+mode will engage but it will shortly then fail with error L6, flow switch
+error:
 
 ![Error L6](images/error-L6.png)
 
@@ -66,7 +68,8 @@ It is strongly recommend that you install a switch, but it is possible to
 bypass this error by setting parameter 5126 to 0 to disable flow switch
 detection.  In this case you will need to ensure that your water loop is
 never obstructed (eg by all zone valves being closed) - if you have a buffer
-tank then the loop should operate even if no zones are open.
+tank then the loop should operate even if no zones are open (assuming no
+other blockage).
 
 [An example flow switch (not a recommendation)](https://www.caleffi.com/international/en-int/catalogue/flow-switch-suitable-1-8-pipes-626600):
 
