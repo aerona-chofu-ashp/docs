@@ -16,7 +16,7 @@ work but not fully put into service.
 
 Cooling mode can be activated via the room controller:
 
-![Room controller](images/room-controller-buttons.png)
+![Room controller](images/room-controller-picture.png)
 
 Grant's installation instructions say you don't need to touch this in
 general use, and so installers may mount this somewhere inconvenient.
